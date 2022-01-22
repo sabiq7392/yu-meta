@@ -11,6 +11,11 @@
 
 .yu-bg-dark { background-color: $color-dark!important; }
 
+// Border
+.border-10 { border: 10px solid; }
+
+.border-color-white { border-color: white; }
+
 // Font Color
 .yu-text-blue { color: $color-blue; }
 
@@ -39,12 +44,20 @@
   border-top-right-radius: 20px!important;
 }
 
+.yu-tl-rounded-10 { border-top-left-radius: 10px; }
+.yu-tr-rounded-10 { border-top-right-radius: 10px; }
+.yu-bl-rounded-10 { border-bottom-left-radius: 10px; }
+.yu-br-rounded-10 { border-bottom-right-radius: 10px; }
+
 // Shadow
 .yu-shadow-sm { box-shadow: $shadow-sm; }
 
+// Transition
+.transition-100 { transition: 100ms; }
+
+// ================= HOVER ====================
 // Hover Translate
 .--hover-translate-x {
   &:hover { transform: translateX(5px); }
 }
 
-.transition-100 { transition: 100ms; }

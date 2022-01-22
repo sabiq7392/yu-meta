@@ -1,16 +1,15 @@
 /* eslint-disable react/jsx-no-undef */
 import item from '../images/items/item_2.png';
-import ButtonCircle from './ButtonCircle';
-import ButtonPill from './ButtonPill';
-import Col from './Col';
-import Flex from './Flex';
-import Row from './Row';
-import Card, { CardBody, CardHeader } from './Card';
-import Avatar from './Avatar';
+import ButtonCircle from '../components/ButtonCircle';
+import ButtonPill from '../components/ButtonPill';
+import { Flex } from '../components/Display';
+import { Row, Col } from '../components/GridSystem';
+import Card, { CardBody, CardHeader } from '../components/Card';
+import Avatar from '../components/Avatar';
 import avatar_3 from '../images/avatars/avatar_3.png';
 import avatar_2 from '../images/avatars/avatar_2.png';
 
-export default function Content() {
+export default function PreviewNft() {
   return (
     <div>
       <ButtonPill className="py-1 mb-5 yu-shadow-sm">

@@ -3,8 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Appbar from './components/Appbar';
-import Content from './components/Content';
 import Footer from './components/Footer';
+import PreviewNft from './Contents/PreviewNft';
+import Collections from './Contents/Collections';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Appbar />
       </header>
       <main className="container yu-container">
-        <Content />
+        <PreviewNft />
+        <Collections />
       </main>
       <Footer />
     </div>

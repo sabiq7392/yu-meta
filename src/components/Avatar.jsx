@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types';
 
-export default function Avatar({ img, username, className }) {
+export default function Avatar({ img, username, className, height = 30, width = 30 }) {
   return (
-    <div className="d-flex gap-2">
+    <div className="d-flex gap-2 align-items-center">
       <img 
         src={img} 
         alt={username} 
-        width={30} 
-        height={30}
+        width={width} 
+        height={height}
         className={`rounded-circle ${className}`} 
       />
-      <p>{username}</p>
+      <p className="m-0 yu-text-v-lighter">{username}</p>
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import Row from "./Row";
-import Flex from "./Flex";
+import { Row } from "./GridSystem";
+import { Flex } from "./Display";
 import logo from '../images/logos/logo.png';
 
 function FooterLink({ children, href }) {
@@ -36,7 +36,7 @@ export default function Footer() {
                   <h2 className="m-0 fs-5 fw-bolder yu-text-dark">{sectionLink.title}</h2>
                   <div className="d-grid gap-3">
                     {sectionLink.links.map((link) =>
-                      <FooterLink href={`#${link.toLowerCase()}`}>{link}</FooterLink>
+                      <FooterLink  href={`#${link.toLowerCase()}`}>{link}</FooterLink>
                     )}
                   </div>
                 </section>
