@@ -1,0 +1,50 @@
+// Background
+.yu-bg-light { background-color: $color-light!important; }
+
+.yu-bg-lighter { background-color: $color-lighter!important; }
+
+.yu-bg-red { background-color: $color-red!important; }
+
+.yu-bg-v-red { background-color: $color-v-red!important; }
+
+.yu-bg-blue { background-color: $color-blue!important; }
+
+.yu-bg-dark { background-color: $color-dark!important; }
+
+// Font Color
+.yu-text-blue { color: $color-blue; }
+
+.yu-text-dark { color: $color-dark; }
+
+.yu-text-light { color: $color-light; }
+
+.yu-text-lighter { color: $color-lighter; }
+
+.yu-text-red { color: $color-red; }
+
+.yu-text-red { color: $color-v-red; }
+
+.yu-text-v-lighter { color: $color-v-lighter; }
+
+// Font Weight
+.yu-fw-600 { font-weight: 600!important; }
+
+.yu-container { max-width: 1400px!important; }
+
+// Radius
+.yu-rounded { border-radius: 20px!important; }
+
+.yu-t-rounded { 
+  border-top-left-radius: 20px!important;
+  border-top-right-radius: 20px!important;
+}
+
+// Shadow
+.yu-shadow-sm { box-shadow: $shadow-sm; }
+
+// Hover Translate
+.--hover-translate-x {
+  &:hover { transform: translateX(5px); }
+}
+
+.transition-100 { transition: 100ms; }

@@ -1,0 +1,5 @@
+.btn.rounded-pill, .btn.rounded-circle {
+  &:hover {
+    filter: brightness(90%);
+  }
+}

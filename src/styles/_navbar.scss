@@ -1,0 +1,13 @@
+.navbar {
+  .nav-item {
+    .nav-link {
+      color: $color-dark;
+      font-size: 16px;
+      font-weight: 600;
+      &:hover {
+        color: $color-blue!important;
+      }
+    }
+  }
+}
+

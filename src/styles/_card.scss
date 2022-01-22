@@ -1,0 +1,16 @@
+.card {
+  .nav-item {
+    .nav-link {
+      color: $color-dark;
+      box-shadow: $shadow-sm;
+      &:hover { color: $color-blue; }
+      &.active {
+        color: white;
+        background-color: $color-dark;
+        &:hover {
+          filter: brightness(130%);
+        }
+      }
+    }
+  }
+}

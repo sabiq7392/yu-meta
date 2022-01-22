@@ -1,0 +1,134 @@
+.yu-bg-light {
+  background-color: #e2eef1 !important;
+}
+
+.yu-bg-lighter {
+  background-color: #ecf1f9 !important;
+}
+
+.yu-bg-red {
+  background-color: #ea5462 !important;
+}
+
+.yu-bg-v-red {
+  background-color: #e22133 !important;
+}
+
+.yu-bg-blue {
+  background-color: #5691fe !important;
+}
+
+.yu-bg-dark {
+  background-color: #183b56 !important;
+}
+
+.yu-text-blue {
+  color: #5691fe;
+}
+
+.yu-text-dark {
+  color: #183b56;
+}
+
+.yu-text-light {
+  color: #e2eef1;
+}
+
+.yu-text-lighter {
+  color: #ecf1f9;
+}
+
+.yu-text-red {
+  color: #ea5462;
+}
+
+.yu-text-red {
+  color: #e22133;
+}
+
+.yu-text-v-lighter {
+  color: #606c82;
+}
+
+.yu-fw-600 {
+  font-weight: 600 !important;
+}
+
+.yu-container {
+  max-width: 1400px !important;
+}
+
+.yu-rounded {
+  border-radius: 20px !important;
+}
+
+.yu-t-rounded {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.yu-shadow-sm {
+  -webkit-box-shadow: 0 2px 4px rgba(126, 142, 177, 0.121569) !important;
+          box-shadow: 0 2px 4px rgba(126, 142, 177, 0.121569) !important;
+}
+
+.--hover-translate-x:hover {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.transition-100 {
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.navbar .nav-item .nav-link {
+  color: #183b56;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #5691fe !important;
+}
+
+.card .nav-item .nav-link {
+  color: #183b56;
+  -webkit-box-shadow: 0 2px 4px rgba(126, 142, 177, 0.121569) !important;
+          box-shadow: 0 2px 4px rgba(126, 142, 177, 0.121569) !important;
+}
+
+.card .nav-item .nav-link:hover {
+  color: #5691fe;
+}
+
+.card .nav-item .nav-link.active {
+  color: white;
+  background-color: #183b56;
+}
+
+.card .nav-item .nav-link.active:hover {
+  -webkit-filter: brightness(130%);
+          filter: brightness(130%);
+}
+
+.btn.rounded-pill:hover, .btn.rounded-circle:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+body {
+  background-color: #ecf1f9 !important;
+}
+
+main {
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 991px) {
+  main {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+}
