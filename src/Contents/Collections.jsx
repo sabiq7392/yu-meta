@@ -53,9 +53,15 @@ export default function Collections() {
             <section className="d-grid gap-3">
               <Grid className="gap-2 yu-rounded bg-white p-4">
                 <Flex className="gap-2">
-                  <img src={collection.img[0]} alt="" className="w-100 yu-tl-rounded-10" />
-                  <img src={collection.img[1]} alt="" className="w-100" />
-                  <img src={collection.img[2]} alt="" className="w-100 yu-tr-rounded-10" />
+                  <div>
+                    <img src={collection.img[0]} alt="" className="w-100 yu-tl-rounded-10" />
+                  </div>
+                  <div>
+                    <img src={collection.img[1]} alt="" className="w-100" />
+                  </div>
+                  <div>
+                    <img src={collection.img[2]} alt="" className="w-100 yu-tr-rounded-10" />
+                  </div>
                 </Flex>
                 <img src={collection.bigImg} alt="" className="w-100 yu-br-rounded-10 yu-bl-rounded-10" />
               </Grid>
